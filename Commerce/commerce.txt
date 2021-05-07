@@ -1,0 +1,4 @@
+eco, accountancy ,bst
+hindi
+computer
+maths

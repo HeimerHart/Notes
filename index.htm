@@ -1,0 +1,125 @@
+<html>
+<head>
+
+<title>Class XI</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+
+
+
+
+.navbar{
+background-color:#555;
+overflow: auto;
+}
+
+.navbar a{
+float:right;
+text-decoration:none;
+font-size:20px;
+color:white;
+padding:10px
+}
+.active{
+background-color:#04AA6D;
+}
+
+.navbar a:hover{
+background-color: #000;
+}
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+
+
+
+button{
+border-radius:5px;
+font-size:70px;
+font-family:moonglade demo;
+color:white
+margin: 4px 2px;
+transition-duration: 0.4s;
+cursor: pointer;
+text align:center;
+
+display:inline-block
+
+}
+.science{
+position:absolute;
+top:90;
+left:260;
+background-color:white;
+color:black;
+border:2px solid #4CAF50;
+}
+.science:hover{
+background-color:#4CAF50;
+color:white;
+border:2px solid #4CAF50;
+}
+
+.commerce{
+position:absolute;
+right:260;
+top:90;
+background-color:white;
+color:black;
+border:2px solid #008CBA;
+float:right;
+
+}
+.commerce:hover{
+background-color:#008CBA;
+color:white;
+border:2px solid #008CBA;
+}
+
+
+
+
+.copy{
+font-family:moonglade demo;
+background-color:#0044ff;
+position:relative;
+top: 650;
+
+color:white;
+overflow:auto;
+font-size:15px;
+padding:2px;
+}
+c{
+font-family:body;
+}
+.pdf{
+padding:30px;
+}
+  </style>
+
+</head>
+  <body bgcolor="#f7f5f5" >
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="navbar">
+
+<a href="commerce.htm">Commerce</a>
+<a href="science.htm">Science</a>
+<a href="about.htm">About</a>
+<a class="active" href="index.htm"><i class="fa fa-fw fa-home"></i>Home</a>
+</div><br>
+
+<button class="science" onclick="document.location='science.htm'" style="height:500px; width: 400px">Science</button>
+<button class="commerce" onclick="document.location='commerce.htm'" style="height:500px; width: 400px">Commerce</button>
+
+
+</div>
+<p align="center"><div class="copy"><p align="center"><c>© </c>Sriansh</p>
+</div>
+<div class="pdf">
+  </body>
+</html>
